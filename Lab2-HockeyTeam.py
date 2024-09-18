@@ -11,8 +11,21 @@
 # simple math operations
 
 def main():
-    # YOUR CODE STARTS HERE, each line must be indented (one tab)
-    print("Hockey Team Program")
+    #YOUR CODE STARTS HERE, each line must be indented (one tab)
+    print("Hello and Welcome to the Hockey Team Calculator!")
+    #input ask user name of team
+    TeamName = input ("Please enter you team name:")
+    #input ask user number of wins
+    Wins = input ("How many wins have the {0} had this season?".format(TeamName)) 
+    #input ask user number of losses
+    Losses = input("How many Losses Have The {0} had this season?".format(TeamName))
+    print("Please wait while we calculate your answer")
+    #cast wins and losses into integer and add together to create total games
+    TotalGames = int(Wins)+int(Losses)
+    #divide wins by total games
+    
+    #put it all together in a single string
+
 
 
 
