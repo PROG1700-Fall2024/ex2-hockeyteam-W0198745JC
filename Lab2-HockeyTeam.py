@@ -23,16 +23,9 @@ def main():
     #cast wins and losses into integer and add together to create total games
     TotalGames = int(Wins)+int(Losses)
     #divide wins by total games
-    
+
     #put it all together in a single string
-
-
-
-
-
-
-
-
+    print("The {0} have {1} wins and {2} Losses This Season with a winning percentage of ... ".format(TeamName,Wins,Losses) + str(round(int(Wins) / TotalGames,4)))
     # YOUR CODE ENDS HERE
 
 main()
